@@ -34,6 +34,10 @@ Lo mismo que el comando anterior, pero incluye la URL de cada conexión
 
 `git rm -fr <folder_name>`
 
+[Renombrar archivos](https://docs.github.com/es/repositories/working-with-files/managing-files/renaming-a-file)
+
+`$ git mv <OLD-FILENAME> <NEW-FILENAME>`
+
 ## [Markdown-guide’s documentation!](https://markdown-guide.readthedocs.io/en/latest/index.html)
 
 Markdown: `\s\s`
