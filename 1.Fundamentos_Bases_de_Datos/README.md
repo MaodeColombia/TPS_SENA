@@ -175,6 +175,15 @@
 
     <br>
 
+    ```MySQL
+    ALTER TABLE `platziblog`.`people` 
+    DROP COLUMN `date_of_birth`;
+    ```
+
+    con el anterior query se eliminó el campo `date_of_birth`
+
+    <br>
+
   - ### DDL drop
 
   - ### Playground: VIEW, ALTER y DROP en SQL
