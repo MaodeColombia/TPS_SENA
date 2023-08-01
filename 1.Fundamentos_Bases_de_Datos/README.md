@@ -152,8 +152,19 @@
     ALTER TABLE `people`
     DROP COLUMN `year`;
     ```
-    
+
     El query que precede elimina el campo `year`; originalmente cuando se inició la actividad se agregó el campo `date_of_birth`.
+
+    <br>
+
+    ```MySQL
+    ALTER TABLE `platziblog`.`people` 
+    ADD COLUMN `date_of_birth` DATETIME NULL AFTER `city`;
+    ```
+
+    con el anterior query se agregó el campo `date_of_birth` en la tabla `people` de la base de datos `platziblog`, de tipo DATETIME, NULL como predeterminada, dicho campo va despues del campo `city`
+
+    <br>
 
   - ### DDL drop
 
