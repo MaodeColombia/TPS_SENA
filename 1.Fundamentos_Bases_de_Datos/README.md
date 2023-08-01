@@ -73,6 +73,20 @@
 
     con el query anterior se define la base de datos `platziblog` como la predeterminada para que todos los queries que se ejecuten sean aplicados sobre la base de datos `platziblog`.
 
+    <br>
+
+    ```MySQL
+    CREATE TABLE `platziblog`.`people` (
+    `person_id` INT NOT NULL AUTO_INCREMENT,
+    `last_name` VARCHAR(255) NULL,
+    `first_name` VARCHAR(255) NULL,
+    `address` VARCHAR(255) NULL,
+    `city` VARCHAR(255) NULL,
+    PRIMARY KEY (`person_id`));
+    ```
+
+    Una vez creada la base de datos y seleccionada, se crea la tabla `people`con los campos `person_id`, `last_name`, `first_name`, `address` y `city`, cada un de estos campos tiene sus propios constaints, para el caso `person_id` es de tipo entereo `INT`, no puede ser nulo el campo `NOT NULL` y es de tipo autoincremental `AUTO_INCREMENT`, así sucesivamente los demás campos con sus respectivos contrainsts.
+
   - ### Playground: CREATE TABLE
 
   - ### CREATE VIEW y DDL ALTER
