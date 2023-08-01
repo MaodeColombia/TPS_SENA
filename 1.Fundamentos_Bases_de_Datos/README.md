@@ -191,8 +191,18 @@
     con el anterior query se llenan los datos de la tabla.
 
     <br>
+    <br>
 
   - ### DDL drop
+
+    <br>
+    
+    ```MySQL
+    DROP TABLE `platziblog`,`people`;
+    ```
+    Este query borra la tabla `people` de la base de datos `platziblog`.
+
+
 
   - ### Playground: VIEW, ALTER y DROP en SQL
 
