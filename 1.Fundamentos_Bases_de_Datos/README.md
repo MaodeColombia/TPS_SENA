@@ -211,6 +211,8 @@
 
     <br>
 
+    >[Lectura recomendada: ¿Qué es DDL? Qué significa DML, DCL y TCL + Integridad Referencial](https://platzi.com/blog/que-es-ddl-dml-dcl-y-tcl-integridad-referencial/)
+
   - ### Playground: VIEW, ALTER y DROP en SQL
 
   - ### DML
