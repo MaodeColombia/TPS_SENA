@@ -87,7 +87,32 @@
 
     Una vez creada la base de datos y seleccionada, se crea la tabla `people`con los campos `person_id`, `last_name`, `first_name`, `address` y `city`, cada un de estos campos tiene sus propios constaints, para el caso `person_id` es de tipo entereo `INT`, no puede ser nulo el campo `NOT NULL` y es de tipo autoincremental `AUTO_INCREMENT`, así sucesivamente los demás campos con sus respectivos contrainsts.
 
+    <br>
+
   - ### Playground: CREATE TABLE
+    
+    El ejercio propuesto para aplicar los queries vistos es:
+    
+    <br>
+
+    **Ejercicio CREATE TABLE**
+
+    Debes crear una tabla de datos que permita almacenar información sobre personas, llamada `people`. La tabla tendrá cinco campos: `person_id`, `last_name`, `first_name`, `address`, y `city`.
+
+    - La columna `person_id` debe ser de tipo entero, debe ser la llave primaria de la tabla, debe ser autoincremental y recuerde no permitir valores NULOS.
+
+    - La columna `last_name` debe ser de tipo texto, debe tener un tamaño máximo de 100 caracteres y debe permitir valores NULOS.
+
+    - La columna `first_name` debe ser de tipo texto, debe tener un tamaño máximo de 100 caracteres y debe permitir valores NULOS.
+
+    - La columna `address` debe ser de tipo texto, debe tener un tamaño máximo de 30 caracteres y debe permitir valores NULOS.
+
+    - La columna `city` debe ser de tipo texto, debe tener un tamaño máximo de 50 caracteres y debe permitir valores NULOS.
+
+    <br>
+    <br>
+
+    El desarrollo se encuentra en la carpeta [1.Fundamentos_Bases_de_Datos](/1.Fundamentos_Bases_de_Datos/exercise21_R.sql) 
 
   - ### CREATE VIEW y DDL ALTER
 
