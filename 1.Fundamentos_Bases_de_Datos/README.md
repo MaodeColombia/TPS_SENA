@@ -110,11 +110,21 @@
     - La columna `city` debe ser de tipo texto, debe tener un tamaño máximo de 50 caracteres y debe permitir valores NULOS.
 
     <br>
+
+    El desarrollo se encuentra en la carpeta [1.Fundamentos_Bases_de_Datos](/1.Fundamentos_Bases_de_Datos/exercise21_R.sql).
+
     <br>
 
-    El desarrollo se encuentra en la carpeta [1.Fundamentos_Bases_de_Datos](/1.Fundamentos_Bases_de_Datos/exercise21_R.sql) 
-
   - ### CREATE VIEW y DDL ALTER
+
+    ```MySQL
+    ALTER TABLE people 
+    ADD date_of_birth date;
+    ```
+
+    En su forma más básica agregar un campo se hace con la sentencia `ALTER TABLE + ADD`, en el query anterior hora se modificará la tabla `people`, agregando el campo `date_of_birth` con el constraint `date`.
+
+    <br>
 
   - ### DDL drop
 
