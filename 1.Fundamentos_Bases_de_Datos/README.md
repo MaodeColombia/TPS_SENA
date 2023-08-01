@@ -57,6 +57,14 @@
     - COMMENT
     - RENAME
 
+    <br>
+    <br>
+
+    ```MySQL
+    CREATE SCHEMA `platziblog` DEFAULT CHARACTER SET utf8mb4;
+    ```
+    con el anterior query se crea la Base de Datos `CREATE SCHEMA platziblog` y se incluye el grupo de caracteres utf8 `DEFAULT CHARACTER SET utf8mb4`
+
   - ### Playground: CREATE TABLE
 
   - ### CREATE VIEW y DDL ALTER
