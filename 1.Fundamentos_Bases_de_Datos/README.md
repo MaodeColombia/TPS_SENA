@@ -146,8 +146,15 @@
 
     El query anterior hace el cambio del nombre del campo `date_of_birth` por `year`, con el contraint `DATE` y que de manera predeterminada se llene con NULL
 
+    <br>
+
+     ```MySQL
+    ALTER TABLE `people`
+    DROP COLUMN `year`;
+    ```
     
-    
+    El query que precede elimina el campo `year`; originalmente cuando se inició la actividad se agregó el campo `date_of_birth`.
+
   - ### DDL drop
 
   - ### Playground: VIEW, ALTER y DROP en SQL
