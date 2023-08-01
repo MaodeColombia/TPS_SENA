@@ -184,6 +184,14 @@
 
     <br>
 
+    ```MySQL
+    INSERT INTO `platziblog`.`people` (`person_id`, `last_name`, `first_name`, `address`, `city`) VALUES ('1', 'Vásquez', 'Israel', 'Calle Famosa Num 1','México'), ('2', 'Hernández', 'Mónica', 'Reforma 222', 'México'), ('3', 'Alanis', 'Edgar', 'Central 1', 'Monterrey');
+    ```
+
+    con el anterior query se llenan los datos de la tabla.
+
+    <br>
+
   - ### DDL drop
 
   - ### Playground: VIEW, ALTER y DROP en SQL
