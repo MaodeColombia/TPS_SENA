@@ -63,7 +63,15 @@
     ```MySQL
     CREATE SCHEMA `platziblog` DEFAULT CHARACTER SET utf8mb4;
     ```
-    con el anterior query se crea la Base de Datos `CREATE SCHEMA platziblog` y se incluye el grupo de caracteres utf8 `DEFAULT CHARACTER SET utf8mb4`
+    con el anterior query se crea la Base de Datos `CREATE SCHEMA platziblog` y se incluye el grupo de caracteres utf8 `DEFAULT CHARACTER SET utf8mb4`.
+
+    <br>
+
+    ```MySQL
+    USE `platziblog`
+    ```
+
+    con el query anterior se define la base de datos `platziblog` como la predeterminada para que todos los queries que se ejecuten sean aplicados sobre la base de datos `platziblog`.
 
   - ### Playground: CREATE TABLE
 
