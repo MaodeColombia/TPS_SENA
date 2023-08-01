@@ -166,6 +166,15 @@
 
     <br>
 
+    ```MySQL
+    ALTER TABLE `platziblog`.`people` 
+    CHANGE COLUMN `date_of_birth` `date_of_birth` VARCHAR(30) NULL DEFAULT NULL ;
+    ```
+
+    con el anterior query se cambio el tipo de dato del campo `date_of_birth`
+
+    <br>
+
   - ### DDL drop
 
   - ### Playground: VIEW, ALTER y DROP en SQL
