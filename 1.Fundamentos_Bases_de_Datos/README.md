@@ -139,6 +139,15 @@
 
     <br>
 
+    ```MySQL
+    ALTER TABLE `platziblog`.`people`
+    CHANGE COLUMN `date_of_birth` `year` DATE NULL DEFAULT NULL;
+    ```
+
+    El query anterior hace el cambio del campo `date_of_birth` por `year`, con el contraint `DATE` y que de manera predeterminada se llene con NULL
+
+    <br>
+    
   - ### DDL drop
 
   - ### Playground: VIEW, ALTER y DROP en SQL
