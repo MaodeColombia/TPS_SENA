@@ -126,6 +126,19 @@
 
     <br>
 
+    ```MySQL
+    ALTER TABLE `platziblog`.`people` 
+    ADD `correo` VARCHAR(45) NULL AFTER `address`;
+    ```
+    
+    El query anterior está escrito más completo varios cambios:
+    - Se está haciendo una referencia explicita a la base de datos donde se harán los cambio `platziblog` y a la tabla dónde se agregará el nuevo campo `people`
+    - Se tiene el acento grave (alt+96) en los componentes de la tabla como `platziblog`, `people`, `correo` y `address`
+    - Constraint `VARCHAR(45)`, valor predeterminado `NULL`
+    - Por último la sentencia `AFTER` para indicar dónde se va a ubicar el nuevo campo, o sea que `correo` irá seguido de `address`
+
+    <br>
+
   - ### DDL drop
 
   - ### Playground: VIEW, ALTER y DROP en SQL
