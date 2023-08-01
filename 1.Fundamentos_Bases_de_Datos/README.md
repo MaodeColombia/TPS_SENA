@@ -48,6 +48,15 @@
 
   - ### DDL create
 
+    El grupo de comandos(sentencias) relacionadas con el grupo DDL son:
+
+    - CREATE
+    - ALTER
+    - DROP
+    - TRUNCATE
+    - COMMENT
+    - RENAME
+
   - ### Playground: CREATE TABLE
 
   - ### CREATE VIEW y DDL ALTER
