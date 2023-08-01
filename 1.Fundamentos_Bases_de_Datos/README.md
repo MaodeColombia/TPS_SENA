@@ -202,7 +202,14 @@
     ```
     Este query borra la tabla `people` de la base de datos `platziblog`.
 
+    <br>
 
+      ```MySQL
+    DROP DATABASE `platziblog`;
+    ```
+    El query borra la base de datos `platziblog`
+
+    <br>
 
   - ### Playground: VIEW, ALTER y DROP en SQL
 
