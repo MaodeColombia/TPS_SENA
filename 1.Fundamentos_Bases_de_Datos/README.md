@@ -1,161 +1,154 @@
 # [Curso de Fundamentos de Bases de Datos](https://platzi.com/cursos/bd/)
 
-## Bienvenida conceptos básicos y contexto histórico de las Bases de Datos.
+- ## Bienvenida conceptos básicos y contexto histórico de las Bases de Datos
 
-### Bienvenida conceptos básicos y contexto histórico de las Bases de Datos
+  - ### Bienvenida conceptos básicos y contexto histórico de las Bases de Datos
+  
+  - ### Playground: tu primera consulta en bases de datos
 
-### Playground: tu primera consulta en bases de datos
+- ## Introducción a las bases de datos relacionales
 
+  - ### Historia de las bases de datos relacionales
 
-## Introducción a las bases de datos relacionales
+  - ### Qué son entidades y atributos
 
-### Historia de las bases de datos relacionales
+  - ### Entidades de Platzi Blog
 
-### Qué son entidades y atributos
+  - ### Relaciones
 
-### Entidades de Platzi Blog
+  - ### Múltiples muchos
 
-### Relaciones
+  - ### Diagrama ER
 
-### Múltiples muchos
+  - ### Diagrama Físico: tipos de datos y constraints
 
-### Diagrama ER
+  - ### Diagrama Físico: normalización
 
-### Diagrama Físico: tipos de datos y constraints
+  - ### Formas normales en Bases de Datos relacionales
 
-### Diagrama Físico: normalización
+  - ### Diagrama Físico: normalizando Platziblog
 
-### Formas normales en Bases de Datos relacionales
+- ## RDBMS (MySQL) o cómo hacer lo anterior de manera práctica
 
-### Diagrama Físico: normalizando Platziblog
+  - ### Instalación local de un RDBMS (Windows)
 
+  - ### ¿Qué es RDB y RDBMS?
 
-## RDBMS (MySQL) o cómo hacer lo anterior de manera práctica
+  - ### Instalación local de un RDBMS (Mac)
 
-### Instalación local de un RDBMS (Windows)
+  - ### Instalación local de un RDBMS (Ubuntu)
 
-### ¿Qué es RDB y RDBMS?
+  - ### Clientes gráficos
 
-### Instalación local de un RDBMS (Mac)
+  - ### Servicios administrados
 
-### Instalación local de un RDBMS (Ubuntu)
+- ## SQL hasta en la sopa
 
-### Clientes gráficos
+  - ### Historia de SQL
 
-### Servicios administrados
+  - ### DDL create
 
+  - ### Playground: CREATE TABLE
 
-## SQL hasta en la sopa
+  - ### CREATE VIEW y DDL ALTER
 
-### Historia de SQL
+  - ### DDL drop
 
-### DDL create
+  - ### Playground: VIEW, ALTER y DROP en SQL
 
-### Playground: CREATE TABLE
+  - ### DML
 
-### CREATE VIEW y DDL ALTER
+  - ### Playground: CRUD con SQL
 
-### DDL drop
+  - ### ¿Qué tan standard es SQL?
 
-### Playground: VIEW, ALTER y DROP en SQL
+  - ### Creando Platziblog: tablas independientes
 
-### DML
+  - ### Creando Platziblog: tablas dependientes
 
-### Playground: CRUD con SQL
+  - ### Creando Platziblog: tablas transitivas
 
-### ¿Qué tan standard es SQL?
+- ## Consultas a una base de datos
 
-### Creando Platziblog: tablas independientes
+  - ### ¿Por qué las consultas son tan importantes?
 
-### Creando Platziblog: tablas dependientes
+  - ### Estructura básica de un Query
 
-### Creando Platziblog: tablas transitivas
+  - ### SELECT
 
+  - ### Playground: SELECT en SQL
 
-## Consultas a una base de datos
+  - ### FROM y SQL JOINs
 
-### ¿Por qué las consultas son tan importantes?
+  - ### Utilizando la sentencia FROM
 
-### Estructura básica de un Query
+  - ### Playground: FROM y LEFT JOIN en SQL
 
-### SELECT
+  - ### WHERE
 
-### Playground: SELECT en SQL
+  - ### Utilizando la sentencia WHERE nulo y no nulo
 
-### FROM y SQL JOINs
+  - ### Playground: Filtrando Datos con WHERE
 
-### Utilizando la sentencia FROM
+  - ### GROUP BY
 
-### Playground: FROM y LEFT JOIN en SQL
+  - ### ORDER BY y HAVING
 
-### WHERE
+  - ### Playground: Agrupamiento y Ordenamiento de Datos
 
-### Utilizando la sentencia WHERE nulo y no nulo
+  - ### El interminable agujero de conejo (Nested queries)
 
-### Playground: Filtrando Datos con WHERE
+  - ### ¿Cómo convertir una pregunta en un query SQL?
 
-### GROUP BY
+  - ### Preguntándole a la base de datos
 
-### ORDER BY y HAVING
+  - ### Consultando PlatziBlog
 
-### Playground: Agrupamiento y Ordenamiento de Datos
+  - ### Playground: Prueba Final con PlatziBlog
 
-### El interminable agujero de conejo (Nested queries)
+- ## Introducción a la bases de datos NO relacionales
 
-### ¿Cómo convertir una pregunta en un query SQL?
+  - ### ¿Qué son y cuáles son los tipos de bases de datos no relacionales?
 
-### Preguntándole a la base de datos
+  - ### Servicios administrados y jerarquía de datos
 
-### Consultando PlatziBlog
+- ## Manejo de modelos de datos en bases de datos no relacionales
 
-### Playground: Prueba Final con PlatziBlog
+  - ### Top level collection con Firebase
 
+  - ### Creando y borrando documentos en Firestore
 
-## Introducción a la bases de datos NO relacionales
+  - ### Colecciones vs subcolecciones
 
-### ¿Qué son y cuáles son los tipos de bases de datos no relacionales?
+  - ### Recreando Platziblog
 
-### Servicios administrados y jerarquía de datos
+  - ### Construyendo Platziblog en Firestore
 
+  - ### Proyecto final: transformando tu proyecto en una db no relacional
 
-## Manejo de modelos de datos en bases de datos no relacionales
+- ## Bases de datos en la vida real
 
-### Top level collection con Firebase
+  - ### Bases de datos en la vida real
 
-### Creando y borrando documentos en Firestore
+  - ### Big Data
 
-### Colecciones vs subcolecciones
+  - ### Data warehouse
 
-### Recreando Platziblog
+  - ### Data mining
 
-### Construyendo Platziblog en Firestore
+  - ### ETL
 
-### Proyecto final: transformando tu proyecto en una db no relacional
+  - ### Business intelligence
 
+  - ### Machine Learning
 
-## Bases de datos en la vida real
+  - ### Data Science
+  
+  - ### ¿Por qué aprender bases de datos hoy?
 
-### Bases de datos en la vida real.
+- ## Bonus
 
-### Big Data
+  - ### Bases de datos relacionales vs no relacionales
 
-### Data warehouse
-
-### Data mining
-
-### ETL
-
-### Business intelligence
-
-### Machine Learning
-
-### Data Science
-
-### ¿Por qué aprender bases de datos hoy?
-
-
-## Bonus
-
-### Bases de datos relacionales vs no relacionales
-
-### Elegir una base de datos
+  - ### Elegir una base de datos
+  

@@ -10,7 +10,7 @@ Ruta de aprendizaje con 22 Cursos
 
 Básico: Las bases
 
-  1. Curso de Fundamentos de Bases de Datos
+  1. [Curso de Fundamentos de Bases de Datos](/1.Fundamentos_Bases_de_Datos/README.md)
   2. Fundamentos de Ingeniería de Software
   3. Curso de Introducción a la Terminal y Línea de Comandos.
   
