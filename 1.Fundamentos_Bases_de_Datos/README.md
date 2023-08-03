@@ -219,17 +219,17 @@
 
     La tabla `people` ya tiene información cargada. No debes agregar nueva información, solo imprimirla.
 
-    - Crear una vista en SQL basado en la tabla de people con los campos `person_id`, `last_name`, `first_name`:
+    1. Crear una vista en SQL basado en la tabla de people con los campos `person_id`, `last_name`, `first_name`:
 
-      Crea una vista llamada `v_madrid_customers` que muestre únicamente el `person_id`, `last_name` y `first_name` de todas las personas que vivan en la ciudad de "Madrid".
+       Crea una vista llamada `v_madrid_customers` que muestre únicamente el `person_id`, `last_name` y `first_name` de todas las personas que vivan en la ciudad de "Madrid".
 
-      Para crear esta vista, puedes seguir los siguientes pasos:
+       Para crear esta vista, puedes seguir los siguientes pasos:
 
-      ```MySQL
-      CREATE VIEW vista_personas AS
-      SELECT person_id
-      FROM personas
-      ```
+       ```MySQL
+       CREATE VIEW vista_personas AS
+       SELECT person_id
+       FROM personas
+       ```
       <br>
 
     2. Este comando creará una vista llamada vista_personas que selecciona solamente el `person_id` tabla personas.
