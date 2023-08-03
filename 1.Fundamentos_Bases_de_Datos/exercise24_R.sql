@@ -38,3 +38,7 @@ WHERE city = "Madrid";
 /*Solución ITEM 2*/
 CREATE OR REPLACE VIEW `v_personas` AS
 SELECT `person_id` FROM `people`;
+
+/*Solución ITEM 3*/
+ALTER TABLE `people`
+ADD COLUMN `date_of_birth` DATE;
