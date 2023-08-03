@@ -310,6 +310,11 @@
     ![INSERT_INTO](/1.Fundamentos_Bases_de_Datos/imagenes/CAMPO_REGISTRO_DATOS.png)
     [origen de la imagen](https://www.iesandresbojollo.es/tiyc/base/3-Tablas.html)
 
+    <br>
+
+    Ahora se va trabajar con el comando ``UPDATE``, comando que sirve para *actualizar* o *modificar* los datos que ya se tiene en la base de datos; `UPDATE` no va a insertar los datos
+
+
   - ### Playground: CRUD con SQL
 
   - ### ¿Qué tan standard es SQL?
