@@ -34,3 +34,7 @@ FROM `people`
 WHERE city = "Madrid";
 /*Una buena práctica de código es colocar en el nombre de la visa una v_ al principio para que quede eplicito que el elemento creado no es una tabla sino una vista*/
 /*tambien se puede agregar a la creación de la vista `OR REPLACE` para que agregue reemplace la vista en caso que ya este creada dicha vista, quedando asi `CREATE OR REPLACE VIEW v_madrid_customers AS...`*/
+
+/*Solución ITEM 2*/
+CREATE OR REPLACE VIEW `v_personas` AS
+SELECT `person_id` FROM `people`;
