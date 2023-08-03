@@ -1,0 +1,27 @@
+/*Creación de la base de datos*/
+CREATE SCHEMA `test_1`;
+
+/*Seleción de la base de datos como predeterminada*/
+USE `test_1`;
+
+/*Creación de la tabla*/
+ CREATE TABLE `people`(
+    `person_id` INT NOT NULL AUTO_INCREMENT ,
+    `last_name` VARCHAR(255) NULL ,
+    `first_name` VARCHAR(255) DEFAULT NULL,
+    `address` VARCHAR(255) DEFAULT NULL,
+    `city` VARCHAR(255) DEFAULT NULL,
+    PRIMARY KEY(`person_id`));
+
+/*Llenado de la tabla*/
+INSERT INTO `people` (`person_id`, `last_name`, `first_name`, `address`, `city`) VALUES 
+('1','Smith','John','123 Main St.','Anytown'),
+('2','Doe','Jane','456 Maple St.','Mexico'),
+('3','White','Jim','789 Elm St.','Colombia'),
+('4','Black','Jack','101 Park Ave.','Madrid'),
+('5','Green','Jill','202 Forest Rd.','London'),
+('6','Blue','Mary','303 Ocean Blvd.','Paris'),
+('7','Brown','Bob','404 Country Rd.','Berlin'),
+('8','Pink','Bill','505 Hill St.','Rome'),
+('9','Yellow','Sue','606 Lake St.','Athens'),
+('10','Purple','Joe','707 River St.','Prague');

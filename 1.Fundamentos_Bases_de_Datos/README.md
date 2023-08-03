@@ -260,6 +260,8 @@
         DROP COLUMN ;
         ```
 
+    El desarrollo se encuentra en la carpeta [1.Fundamentos_Bases_de_Datos como "exercise24_R.sql"](/1.Fundamentos_Bases_de_Datos/exercise24_R.sql).
+
   - ### DML
 
   - ### Playground: CRUD con SQL
