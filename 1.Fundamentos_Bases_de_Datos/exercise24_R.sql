@@ -40,5 +40,6 @@ CREATE OR REPLACE VIEW `v_personas` AS
 SELECT `person_id` FROM `people`;
 
 /*Solución ITEM 3*/
-ALTER TABLE `people`
+/*Se podría usar la notación como en Programación Orientada a Objetos - POO*, el objeto sería la base de datos `test_1` y para hacer referencia a la tabla de la base de datos sería `test_1`.`people`*/
+ALTER TABLE `test_1`.`people`
 ADD COLUMN `date_of_birth` DATE;
