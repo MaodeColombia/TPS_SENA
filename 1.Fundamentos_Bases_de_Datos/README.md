@@ -304,6 +304,12 @@
     
     El primer campo `last_name` debe corresponder con el primer valor en la seccion `VALUES` o sea 'Hernández'
 
+    >Como ha podido observar en el último query se usó, se manejó el acento grave `` (Alt + 96) y las comillas sencillas '' (alt + 39). El acento grave se usa para delimitar elementos de la base de datos como el nombre de la base de datos, el nombre de los **campos**, nombre de los **registros**, mientras que las comillas sencillas se usan para los **datos** de la tabla.
+    <br>
+    <br>
+    ![INSERT_INTO](/1.Fundamentos_Bases_de_Datos/imagenes/CAMPO_REGISTRO_DATOS.png)
+    [origen de la imagen](https://www.iesandresbojollo.es/tiyc/base/3-Tablas.html)
+
   - ### Playground: CRUD con SQL
 
   - ### ¿Qué tan standard es SQL?
