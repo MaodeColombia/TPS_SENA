@@ -25,3 +25,12 @@ INSERT INTO `people` (`person_id`, `last_name`, `first_name`, `address`, `city`)
 ('8','Pink','Bill','505 Hill St.','Rome'),
 ('9','Yellow','Sue','606 Lake St.','Athens'),
 ('10','Purple','Joe','707 River St.','Prague');
+
+
+/*Solución ITEM 1*/
+CREATE VIEW `v_madrid_customers` AS
+SELECT `person_id`, `last_name`, `first_name`
+FROM `people`
+WHERE city = "Madrid";
+/*Una buena práctica de código es colocar en el nombre de la visa una v_ al principio para que quede eplicito que el elemento creado no es una tabla sino una vista*/
+/*tambien se puede agregar a la creación de la vista `OR REPLACE` para que agregue reemplace la vista en caso que ya este creada dicha vista, quedando asi `CREATE OR REPLACE VIEW v_madrid_customers AS...`*/
