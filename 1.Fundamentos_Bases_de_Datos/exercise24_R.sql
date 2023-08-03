@@ -44,3 +44,7 @@ SELECT `person_id` FROM `people`;
 /*Recordando un tema visto, se puede agregar el campo `date_of_birth` despues de `first_name`*/
 ALTER TABLE `test_1`.`people`
 ADD COLUMN `date_of_birth` DATE NULL AFTER `first_name`;
+
+/*Solución ITEM 4*/
+ALTER TABLE `test_1`.`people` 
+DROP COLUMN `address`;
