@@ -268,7 +268,29 @@
     - INSERT: Actualiza o modifica los datos que ya existen.
     - UPDATE: Esta sentencia es riesgosa porque puede borrar el contenido de una tabla.
     - DELETE: Trae información de la base de datos.
-    
+
+    <br>
+
+    ```MySQL
+    CREATE SCHEMA `platzi_test`;  
+
+    USE `platzi_test`;
+
+    CREATE TABLE `platzi_test`.`new_table` (
+    `person_id` INT NOT NULL,
+    `last_name` VARCHAR(45) NULL,
+    `first_name` VARCHAR(45) NULL,
+    `address` VARCHAR(45) NULL,
+    `city` VARCHAR(45) NULL,
+    PRIMARY KEY (`person_id`));
+
+    INSERT INTO `platzi_test`.`people` (`last_name`,`first_name`,`address`,`city`) VALUES
+    ('Vázquez', 'Israel','Reforma 222','México'),
+    ('Alanis','Edgar','Avenida siempreviva', 'Morelia'),
+    ('Hernández','Mónica','Pensilvania 1600','Aguascalientes');
+    ```
+    El script anterior es para generar la base de datos con la respectiva tabla con la que se está trabajando.
+
   - ### Playground: CRUD con SQL
 
   - ### ¿Qué tan standard es SQL?
