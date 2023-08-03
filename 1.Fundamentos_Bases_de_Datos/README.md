@@ -291,6 +291,19 @@
     ```
     El script anterior es para generar la base de datos con la respectiva tabla con la que se está trabajando.
 
+    <br>
+
+    Ahora se va trabajar con el comando `INSERT`
+    ```MySQL
+    INSERT INTO `people` (`last_name`,`first_name`,`address`,`city`)
+    VALUES ('Hernández', 'Laura', 'Calle 21', 'Monterrey');
+    ```
+    Este query se usa para insertar un registro a la base de datos y es importante resaltar que el orden en el que se escriben los datos a ingresar es estricto, así
+
+    ![INSERT_INTO](/1.Fundamentos_Bases_de_Datos/imagenes/INSERT_INTO.png)
+    
+    El primer campo `last_name` debe corresponder con el primer valor en la seccion `VALUES` o sea 'Hernández'
+
   - ### Playground: CRUD con SQL
 
   - ### ¿Qué tan standard es SQL?
