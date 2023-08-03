@@ -191,7 +191,6 @@
     con el anterior query se llenan los datos de la tabla.
 
     <br>
-    <br>
 
   - ### DDL drop
 
@@ -263,7 +262,13 @@
     El desarrollo se encuentra en la carpeta [1.Fundamentos_Bases_de_Datos como "exercise24_R.sql"](/1.Fundamentos_Bases_de_Datos/exercise24_R.sql).
 
   - ### DML
+    El grupo de comandos(sentencias) DML relacionados a continuación permiten realizar diferentes acciones a los datos que se encuentran en una base de datos.
 
+    - SELECT: Inserta o agrega nuevos registros a la tabla.
+    - INSERT: Actualiza o modifica los datos que ya existen.
+    - UPDATE: Esta sentencia es riesgosa porque puede borrar el contenido de una tabla.
+    - DELETE: Trae información de la base de datos.
+    
   - ### Playground: CRUD con SQL
 
   - ### ¿Qué tan standard es SQL?
