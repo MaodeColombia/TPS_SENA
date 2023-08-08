@@ -212,6 +212,8 @@
 
     >[Lectura recomendada: ¿Qué es DDL? Qué significa DML, DCL y TCL + Integridad Referencial](https://platzi.com/blog/que-es-ddl-dml-dcl-y-tcl-integridad-referencial/)
 
+    >[Lectura recomendada: MySQL What is DDL, DML, DCL y TCL](https://www.w3schools.in/mysql/ddl-dml-dcl/)
+
   - ### Playground: VIEW, ALTER y DROP en SQL
     
     Debes imprimir los siguientes 4 bloques de información:
