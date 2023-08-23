@@ -274,39 +274,46 @@
     <br>
 
     ```SQL
-    CREATE SCHEMA `platzi_test`;  
+    CREATE SCHEMA `platziblog`;  
 
-    USE `platzi_test`;
+    USE `platziblog`;
 
-    CREATE TABLE `platzi_test`.`new_table` (
-    `person_id` INT NOT NULL,
+    CREATE TABLE `platziblog`.`people` (
+    `person_id` INT NOT NULL AUTO_INCREMENT,
     `last_name` VARCHAR(45) NULL,
     `first_name` VARCHAR(45) NULL,
     `address` VARCHAR(45) NULL,
     `city` VARCHAR(45) NULL,
     PRIMARY KEY (`person_id`));
 
-    INSERT INTO `platzi_test`.`people` (`last_name`,`first_name`,`address`,`city`) VALUES
+    INSERT INTO `platziblog`.`people` (`last_name`,`first_name`,`address`,`city`) VALUES
     ('Vázquez', 'Israel','Reforma 222','México'),
     ('Alanis','Edgar','Avenida siempreviva', 'Morelia'),
     ('Hernández','Mónica','Pensilvania 1600','Aguascalientes');
     ```
-    El script anterior es para generar la base de datos con la respectiva tabla con la que se está trabajando.
+    El script anterior generar la base de datos, la selecciona, crea la tabla e inserta algunos datos para quedar finalmente así:
+    
+    ![INSERT_INTO](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_031130.png)
 
     <br>
 
-    Ahora se va trabajar con el comando `INSERT`
+    El primer comando que se va trabajar es `INSERT`
+    
     ```SQL
     INSERT INTO `people` (`last_name`,`first_name`,`address`,`city`)
     VALUES ('Hernández', 'Laura', 'Calle 21', 'Monterrey');
     ```
+    
+    Cuyo resultado es:
+    ![INSERT INTO](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_032909.png)
+
     Este query se usa para insertar un registro a la base de datos y es importante resaltar que el orden en el que se escriben los datos a ingresar es estricto, así
 
     ![INSERT_INTO](/1.Fundamentos_Bases_de_Datos/imagenes/INSERT_INTO.png)
     
-    El primer campo `last_name` debe corresponder con el primer valor en la seccion `VALUES` o sea 'Hernández'
+    El primer campo `last_name` debe corresponder con el primer valor en la seccion `VALUES` o sea 'Hernández', así sucesivamente.
 
-    >Como ha podido observar en el último query se usó, se manejó el acento grave `` (Alt + 96) y las comillas sencillas '' (alt + 39). El acento grave se usa para delimitar elementos de la base de datos como el nombre de la base de datos, el nombre de los **campos**, nombre de los **registros**, mientras que las comillas sencillas se usan para los **datos** de la tabla.
+    >Como ha podido observar en el último query se usó, se manejó el acento grave ``` ` ``` (Alt + 96) y las comillas sencillas ``` '' ``` (alt + 39). El acento grave se usa para delimitar elementos de la base de datos como el nombre de la base de datos, el nombre de los **campos**, nombre de los **registros**, mientras que las comillas sencillas se usan para los **datos** de la tabla.
     <br>
     <br>
     ![INSERT_INTO](/1.Fundamentos_Bases_de_Datos/imagenes/CAMPO_REGISTRO_DATOS.png)
