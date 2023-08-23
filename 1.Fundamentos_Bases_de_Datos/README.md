@@ -60,22 +60,22 @@
     <br>
     <br>
 
-    ```MySQL
+    ```SQL
     CREATE SCHEMA `platziblog` DEFAULT CHARACTER SET utf8mb4;
     ```
     con el anterior query se crea la Base de Datos `CREATE SCHEMA platziblog` y se incluye el grupo de caracteres utf8 `DEFAULT CHARACTER SET utf8mb4`.
 
     <br>
 
-    ```MySQL
-    USE `platziblog`
+    ```SQL
+    USE `platziblog`;
     ```
 
     con el query anterior se define la base de datos `platziblog` como la predeterminada para que todos los queries que se ejecuten sean aplicados sobre la base de datos `platziblog`.
 
     <br>
 
-    ```MySQL
+    ```SQL
     CREATE TABLE `platziblog`.`people` (
     `person_id` INT NOT NULL AUTO_INCREMENT,
     `last_name` VARCHAR(255) NULL,
@@ -117,7 +117,7 @@
 
   - ### CREATE VIEW y DDL ALTER
 
-    ```MySQL
+    ```SQL
     ALTER TABLE people 
     ADD date_of_birth date;
     ```
@@ -126,7 +126,7 @@
 
     <br>
 
-    ```MySQL
+    ```SQL
     ALTER TABLE `platziblog`.`people` 
     ADD `correo` VARCHAR(45) NULL AFTER `address`;
     ```
@@ -139,7 +139,7 @@
 
     <br>
 
-    ```MySQL
+    ```SQL
     ALTER TABLE `platziblog`.`people`
     CHANGE COLUMN `date_of_birth` `year` DATE NULL DEFAULT NULL;
     ```
@@ -148,7 +148,7 @@
 
     <br>
 
-     ```MySQL
+     ```SQL
     ALTER TABLE `people`
     DROP COLUMN `year`;
     ```
@@ -157,7 +157,7 @@
 
     <br>
 
-    ```MySQL
+    ```SQL
     ALTER TABLE `platziblog`.`people` 
     ADD COLUMN `date_of_birth` DATETIME NULL AFTER `city`;
     ```
@@ -166,16 +166,16 @@
 
     <br>
 
-    ```MySQL
+    ```SQL
     ALTER TABLE `platziblog`.`people` 
-    CHANGE COLUMN `date_of_birth` `date_of_birth` VARCHAR(30) NULL DEFAULT NULL ;
+    CHANGE COLUMN `date_of_birth` `date_of_birth` VARCHAR(30) NULL DEFAULT NULL;
     ```
 
     con el anterior query se cambio el tipo de dato del campo `date_of_birth`
 
     <br>
 
-    ```MySQL
+    ```SQL
     ALTER TABLE `platziblog`.`people` 
     DROP COLUMN `date_of_birth`;
     ```
@@ -184,7 +184,7 @@
 
     <br>
 
-    ```MySQL
+    ```SQL
     INSERT INTO `platziblog`.`people` (`person_id`, `last_name`, `first_name`, `address`, `city`) VALUES ('1', 'Vásquez', 'Israel', 'Calle Famosa Num 1','México'), ('2', 'Hernández', 'Mónica', 'Reforma 222', 'México'), ('3', 'Alanis', 'Edgar', 'Central 1', 'Monterrey');
     ```
 
@@ -196,14 +196,14 @@
 
     <br>
     
-    ```MySQL
+    ```SQL
     DROP TABLE `platziblog`,`people`;
     ```
     Este query borra la tabla `people` de la base de datos `platziblog`.
 
     <br>
 
-      ```MySQL
+      ```SQL
     DROP DATABASE `platziblog`;
     ```
     El query borra la base de datos `platziblog`
@@ -226,10 +226,10 @@
 
        Para crear esta vista, puedes seguir los siguientes pasos:
 
-       ```MySQL
+       ```SQL
        CREATE VIEW vista_personas AS
        SELECT person_id
-       FROM personas
+       FROM personas;
        ```
       <br>
 
@@ -237,7 +237,7 @@
 
         Una vez que hayas creado la vista, puedes utilizar el siguiente comando para seleccionar los datos de la vista:
 
-        ```MySQL
+        ```SQL
         SELECT * FROM vista_personas;      
         ```
 
@@ -249,16 +249,16 @@
 
     3. El reto es agregar un nuevo campo llamado `date_of_birth` con el tipo de campo `DATE` a la tabla `people`.
 
-        ```MySQL
+        ```SQL
         ALTER TABLE table_name
         ADD COLUMN column_definition;
         ```
 
     4. El reto es eliminar el campo `address` de la tabla people.
 
-        ```MySQL
+        ```SQL
         ALTER TABLE table_name
-        DROP COLUMN ;
+        DROP COLUMN;
         ```
 
     El desarrollo se encuentra en la carpeta [1.Fundamentos_Bases_de_Datos como "exercise24_R.sql"](/1.Fundamentos_Bases_de_Datos/exercise24_R.sql).
@@ -273,7 +273,7 @@
 
     <br>
 
-    ```MySQL
+    ```SQL
     CREATE SCHEMA `platzi_test`;  
 
     USE `platzi_test`;
@@ -296,7 +296,7 @@
     <br>
 
     Ahora se va trabajar con el comando `INSERT`
-    ```MySQL
+    ```SQL
     INSERT INTO `people` (`last_name`,`first_name`,`address`,`city`)
     VALUES ('Hernández', 'Laura', 'Calle 21', 'Monterrey');
     ```
