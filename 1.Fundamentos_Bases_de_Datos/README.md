@@ -305,6 +305,7 @@
     ```
     
     Cuyo resultado es:
+
     ![INSERT INTO](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_032909.png)
 
     Este query se usa para insertar un registro a la base de datos y es importante resaltar que el orden en el que se escriben los datos a ingresar es estricto, así
@@ -316,12 +317,33 @@
     >Como ha podido observar en el último query se usó, se manejó el acento grave ``` ` ``` (Alt + 96) y las comillas sencillas ``` '' ``` (alt + 39). El acento grave se usa para delimitar elementos de la base de datos como el nombre de la base de datos, el nombre de los **campos**, nombre de los **registros**, mientras que las comillas sencillas se usan para los **datos** de la tabla.
     <br>
     <br>
+    
     ![INSERT_INTO](/1.Fundamentos_Bases_de_Datos/imagenes/CAMPO_REGISTRO_DATOS.png)
+
     [origen de la imagen](https://www.iesandresbojollo.es/tiyc/base/3-Tablas.html)
 
     <br>
 
-    Ahora se va trabajar con el comando ``UPDATE``, comando que sirve para *actualizar* o *modificar* los datos que ya se tiene en la base de datos; `UPDATE` no va a insertar los datos
+    Ahora, se va trabajar con el comando ``UPDATE``, el cual sirve para *actualizar* o *modificar* los datos que ya se tienen en la base de datos.
+
+    > IMPORTANTE: El comando `UPDATE` no insertar los datos, solamente *actualizar* o *modificar*.
+
+    El primer query que se va a desarrollar sobre la Base de Datos es  
+
+    ```SQL
+    UPDATE `people`
+    SET `last_name` = 'Chavez', `city` = 'Mérida'
+    WHERE `person_id` = '1';
+    ```
+
+    El resultado del query es:
+
+    ![UPDATE](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_034912.pnG)
+
+    Este query *actualizar* o *modificar* de la tabla `people` el campo `last_name` y `city` en donde `person_id` es '1'.
+
+
+    
 
 
   - ### Playground: CRUD con SQL
