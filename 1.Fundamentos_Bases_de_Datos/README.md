@@ -328,7 +328,7 @@
 
     > IMPORTANTE: El comando `UPDATE` no insertar los datos, solamente *actualizar* o *modificar*.
 
-    El primer query que se va a desarrollar sobre la Base de Datos es  
+    El primer query que se va a desarrollar sobre la Base de Datos usando el comando `UPDATE` es  
 
     ```SQL
     UPDATE `people`
@@ -342,9 +342,20 @@
 
     Este query *actualizar* o *modificar* de la tabla `people` el campo `last_name` y `city` en donde `person_id` es '1'.
 
+    <br>
 
+    Otro ejemplo de uso del comando `UPDATE` es 
+
+    ```SQL
+    UPDATE `people`
+    SET `first_name` = 'Juan';
+    ```
+    ![UPDATE](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_045022.png)
+
+    El query cambió todos los datos del campo `first_name` por 'juan', tener mucho cuidado con esta forma de uso.
     
-
+    <br>
+    
 
   - ### Playground: CRUD con SQL
 
