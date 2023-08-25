@@ -356,6 +356,19 @@
     
     <br>
     
+     Ahora, se va trabajar con el comando ``DELETE``, el cual también es de cuidado porque puede borrar el contenido de una tabla.
+
+    El query que se va a desarrollar sobre la Base de Datos usando el comando `DELETE` es:
+
+    ```SQL
+    DELETE FROM `people`
+    WHERE `person_id` = '1';
+    ```
+    ![DELETE](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_051150.png)
+
+    Este query eliminó el primer reguistro, observe en el indice `person_id`, ya no está toda la fila del registro '1'
+
+    
 
   - ### Playground: CRUD con SQL
 
