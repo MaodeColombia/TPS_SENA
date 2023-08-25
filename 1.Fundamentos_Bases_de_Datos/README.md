@@ -338,7 +338,7 @@
 
     El resultado del query es:
 
-    ![UPDATE](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_034912.pnG)
+    ![UPDATE](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_034912.png)
 
     Este query *actualizar* o *modificar* de la tabla `people` el campo `last_name` y `city` en donde `person_id` es '1'.
 
