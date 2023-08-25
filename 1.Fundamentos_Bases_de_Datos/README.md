@@ -379,7 +379,44 @@
 
     Este query eliminó TODOS los registro de la tabla `people`; mucho cuidado con el uso de `DELETE`.
 
-     
+     Actualmente la única tabla co la que hemos estado trabajando no tiene registro por el query que se acaba de ejecutar, por tanto ejecutar el llenado de tabla que se uso al principio de esta prática con el fin de poder dessarrollar el siguiente ejemplo
+
+     [DML](##DML)
+
+     ```SQL
+     INSERT INTO `platziblog`.`people` (`last_name`,`first_name`,`address`,`city`) VALUES
+    ('Vázquez', 'Israel','Reforma 222','México'),
+    ('Alanis','Edgar','Avenida siempreviva', 'Morelia'),
+    ('Hernández','Mónica','Pensilvania 1600','Aguascalientes');
+     ```
+     ![llenado de la tabla people](/1.Fundamentos_Bases_de_Datos/imagenes/20230825_123112.png)
+
+     <br>
+
+     El comando con el que trabajará es el `SELECT`, este se ha estado usando en repetidas ocasiones y ya se conoce parte de su uso dentro de un query. El siguiente query permitirá dejar definido que para el uso más básico del `SELECT` se requieren de dos partes, el `SELECT` y el  `FROM`.
+
+     ```SQL
+    SELECT `last_name` FROM `people`; 
+     ```
+
+     ![SELECT](/1.Fundamentos_Bases_de_Datos/imagenes/20230825_124932.png)
+
+    El `SELECT` permite mostrar (traer de la base de datos) los campos que se necesiten, en este ejemplo solo se está mostrando el campo `last_name` pero tambien se pueden mostrar cuantos campos se requieran, 
+
+    ```SQL
+    SELECT `last_name`, `city` FROM `people`;
+    ```
+
+    ![SELECT CON DOS CAMPOS](/1.Fundamentos_Bases_de_Datos/imagenes/20230825_125712.png)
+
+    por ejemplo, el anterior query se motró los campos `last_name` y `city`. Tambien se puede determinar el orden en el que se muestran los objetos
+
+    ```SQL
+    SELECT `city`, `last_name` FROM `people`;
+    ```
+    ![SELECT CON DOS CAMPOS EN UN ORDEN DIFERENTE](/1.Fundamentos_Bases_de_Datos/imagenes/20230825_130555.png)
+
+
 
   - ### Playground: CRUD con SQL
 
