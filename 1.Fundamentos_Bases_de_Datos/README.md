@@ -366,9 +366,20 @@
     ```
     ![DELETE](/1.Fundamentos_Bases_de_Datos/imagenes/20230823_051150.png)
 
-    Este query eliminó el primer reguistro, observe en el indice `person_id`, ya no está toda la fila del registro '1'
+    Este query eliminó el primer registro, observe en el indice `person_id`, ya no está toda la fila del registro '1'
 
-    
+    <br>
+
+    Otro ejemplo de comando `DELETE` es:
+
+    ```SQL
+    DELETE FROM `people`
+    ```
+    ![DELETE](/1.Fundamentos_Bases_de_Datos/imagenes/20230825_120757.png)
+
+    Este query eliminó TODOS los registro de la tabla `people`; mucho cuidado con el uso de `DELETE`.
+
+     
 
   - ### Playground: CRUD con SQL
 
