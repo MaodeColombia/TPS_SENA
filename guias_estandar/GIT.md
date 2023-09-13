@@ -28,7 +28,19 @@ Lo mismo que el comando anterior, pero incluye la URL de cada conexión
 
 `$ git mv <OLD-FILENAME> <NEW-FILENAME>`
 
+[ver el historial de commits y enviarlo a un archivo](https://git-scm.com/docs/git-log)
+
+`git log --pretty=oneline > registro.txt`
+
+![registro de commits](./GIT_docs/20230912_225534.png)
+
+o mostrar el SHA-1 corto
+
+`git log --pretty=reference > registro.txt`
+
 ## [Markdown-guide’s documentation!](https://markdown-guide.readthedocs.io/en/latest/index.html)
+
+
 
 Markdown: `\s\s`
 
